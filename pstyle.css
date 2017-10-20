@@ -10,7 +10,7 @@
 
 
 
-body {position: absolute;
+body {;
 	background-color: lightgray;
 }
 
@@ -135,7 +135,7 @@ img {
 }
 
 #hangman {
-position: relative;
+
 text-align: center;
 	bottom: 0;
 	width: 150px;
