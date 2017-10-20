@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+ a {
+ 	color: lightgray;
+ 	text-decoration: none;
+ }
 
 
 
@@ -28,7 +31,7 @@ body {
 
 #name{
 	padding-left: 15px;
-	position: absolute;
+	position: fixed;
 	background-color: teal;
 	height: 60px;
 	width: 17%;
@@ -40,8 +43,8 @@ body {
 
 
 h1 {
-	position: absolute;
-	padding-left: 30px;
+	position: fixed;
+	
 	padding-top: 10px;
 	color: white;
 	text-align: center;
