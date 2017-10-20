@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+ a {
+ 	color: lightgray;
+ 	text-decoration: none;
+ }
+
+
 
 body {
 	background-color: lightgray;
 }
-
 
 .header{
 	width: 100%;
@@ -16,7 +21,6 @@ body {
 }
 
 #header { 
-
 	font-size: 20px;
 	padding-top: 20px;
 	color: gray;
@@ -26,10 +30,8 @@ body {
 }
 
 #name{
-	clear: both;
-	color: white;
 	padding-left: 15px;
-	position: absolute;
+	position: fixed;
 	background-color: teal;
 	height: 60px;
 	width: 17%;
@@ -38,38 +40,36 @@ body {
 }
 
 
-.contact{
-	margin-top: 20px;
-	margin-left: 13%;
-	background-color: white;
-	float: left;
-	width: 500px;
-	height: 400px;
+
+
+h1 {
+	position: fixed;
+	
+	padding-top: 10px;
+	color: white;
+	text-align: center;
+
 }
 
-h2 {
-	color: teal;
-}
 
+p {
+	color:gray;
+	line-height: 1.5;
+	text-overflow: block;
+}
 hr {
-	margin-left: 20px;
-}
-.bhead {
-	padding-left: 20px;
-	color: teal;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-
-.name {padding-top: 10px;
-}
-
-.message {
-    height:200px;
-    size: 70;
+	margin-top: 20px;
+	background-color: lightgray;
+	height: 3px;
 
 }
 
+img {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-right: 20px
+}
 .sidebar {
 	padding-top: 20px;
 	padding-right: 20px;
@@ -113,4 +113,37 @@ hr {
 	width: 50px;
 }
 
+.portfoliogallery {
+	
+	float: left;
+	background-color: white;
+	color: teal;
+	height: 500px;
+	width: 50%;
+	margin-left: 13%;
+	margin-top: 2.5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
 
+img {
+	height: 150px;
+	width: 150px;
+}
+
+.hangbanner {
+	bottom: 0;
+
+	clear:both;
+	background-color: teal;
+	width: 150px;
+	height: 50px;
+	}
+
+h2 {
+	color: teal;
+
+}
